@@ -30,6 +30,6 @@ CREATE TABLE ad_category
     ad_id  INTEGER UNSIGNED NOT NULL,
     FOREIGN KEY (cat_id) REFERENCES category (id),
     FOREIGN KEY (ad_id) REFERENCES ads (id)
-);
+)
 
 
